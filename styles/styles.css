@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #e2edfc;
+}
+
+.logotype {
+  cursor: pointer;
+}
+
+.logotype:hover {
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  list-style: none;
+  text-decoration: none;
+}
+
+.link a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.main-list {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 80px auto;
+  list-style-type: none;
+}
+
+.list-item {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.list-item h3 {
+  color: #173575;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.list-item p {
+  font-size: 18px;
+}
+
+.main-button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.main-button {
+  padding: 16px 20px;
+  border-radius: 16px;
+  color: #173575;
+  background-color: #e2edfc;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: none;
+}
+
+.main-button:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #173575;
+  color: #e2edfc;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #173575;
+  font-size: 36px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.teachers-list {
+  padding: 0;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.teachers-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 80px;
+}
+
+.teachers-list-item img {
+  border-radius: 12px;
+}
+
+.item-text-block {
+  margin-left: 40px;
+}
+
+.item-text-block h4 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.item-text-block p {
+  font-size: 20px;
+}
+
+.price-list {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 70px auto;
+}
+
+.price-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 21%;
+}
+
+.price-list-item div {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.price-list-item div h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.enclosed-price-list {
+  list-style: none;
+}
+
+.enclosed-price-list li {
+  margin-bottom: 20px;
+}
+
+.enclosed-price-list li h4 {
+  text-align: left;
+}
+
+.enclosed-price-list li p {
+  text-align: right;
+}
+
+.questions-list {
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto;
+  width: 90%;
+}
+
+.questions-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.questions-list-item img {
+  margin-right: 30px;
+}
+
+.questions-list-item div h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.questions-list-item div span {
+  font-size: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 80px auto;
+}
+
+.contact-form-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.contact-form-item label {
+  font-size: 20px;
+  line-height: 1.55;
+  font-weight: 300;
+  margin-bottom: 2px;
+}
+
+.contact-form-item input,
+textarea {
+  padding: 20px;
+  color: #000000;
+  border: 1px solid #000000;
+  background-color: transparent;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.contact-form-item textarea {
+  height: 200px;
+}
+
+.footer {
+  background-color: #e2edfc;
+  padding: 15px 20px;
+}
+
+.footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.footer-list-item {
+  list-style-type: none;
+}
+
+.footer-list-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.footer-list-item a img {
+  margin-right: 10px;
+}
